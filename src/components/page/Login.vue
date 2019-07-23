@@ -1,11 +1,11 @@
 <template>
     <div class="login-page">
         <div class="login-head">
-            <router-link :to="{path:'mine'}">
-                <div class="login-headimg">
+            <!-- <router-link :to="{path:'mine'}"> -->
+                <div class="login-headimg" @click="prev()">
                     <img src="../../../static/img/houtui@3x.png" alt="">
                 </div>
-            </router-link>
+            <!-- </router-link> -->
         </div>
         <div class="login-logo">
             <img src="../../../static/img/loginlogo.png" alt="">
@@ -149,6 +149,9 @@
         tel:function tel(str){
             var re = /^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1})|(198)|(199)|(166)|(165)|(146)|(148))+\d{8})$/;
             return re.test(str)
+        },
+        prev () {
+            this.$router.go(-1)
         }
     }
 }

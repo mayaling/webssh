@@ -63,10 +63,13 @@
                         </div>
                     </router-link>
             </div>
+        <!-- <Tabbar></Tabbar> -->
+
         </div>
       </template>
 
 <script>
+      import Tabbar from "../common/Tabbar.vue"
     export default {
         data(){
             return{
@@ -74,6 +77,9 @@
                 mobile:"",
                 login:true,
             }
+        },
+        components: {
+            Tabbar
         },
         mounted() {
             // if(localStorage.getItem("info")){

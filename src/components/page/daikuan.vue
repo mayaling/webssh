@@ -68,11 +68,17 @@
         <div class="footer" style="min-height: 70px;"></div>
         </scroller>
         <!-- <Tabbar></Tabbar> -->
+		<!-- <Tabbar :active="tabActive"></Tabbar> -->
+        
+
+        <!-- <Tabbar></Tabbar> -->
     </div>
 </template>
 
 <script>
     import Tabbar from "../common/Tabbar.vue"
+	// import Tabbar from "../common/tabs.vue"
+
     import VueScroller from 'vue-scroller'
     Vue.use(VueScroller)
     export default {
@@ -81,11 +87,17 @@
                 zuixindata:"",
                 tuijiandata:"",
                 page:1,
+                tabActive: 'daikuan'
             }
         },
         components: {
             Tabbar
         },
+        // beforeRouteEnter: (to, from, next) => {
+		// 	next(vm => {
+		// 	vm.tabActive = '/' + to.name;
+		// 	});
+		// },
         created() {
             this.getzuixin();
 			this.gettuijian();

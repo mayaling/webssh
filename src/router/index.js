@@ -119,13 +119,28 @@ export default new VueRouter({
             meta: { title: '登录' }
         },
         {
-            path: '/shangwu',
-            component: resolve => require(['../components/page/shangwu.vue'], resolve),
+            path: '/new',
+            component: resolve => require(['../components/page/new.vue'], resolve),
+            meta: { title: '最新' }
+        },
+        {
+            path: '/jobdetail',
+            component: resolve => require(['../components/page/jobdetail.vue'], resolve),
+            meta: { title: '工作详情' }
+        },
+        {
+            path: '/publish',
+            component: resolve => require(['../components/page/publish.vue'], resolve),
+            meta: { title: '工作详情' }
+        },
+        {
+            path: '/positiontype',
+            component: resolve => require(['../components/page/positiontype.vue'], resolve),
             meta: { title: '商务' }
         },
         {
-            path: '/fankui',
-            component: resolve => require(['../components/page/fankui.vue'], resolve),
+            path: '/location',
+            component: resolve => require(['../components/page/location.vue'], resolve),
             meta: { title: '反馈' }
         },
         {

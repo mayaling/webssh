@@ -1,6 +1,6 @@
 <template>
         <div class="wrapper">
-           <Tabbar></Tabbar>
+           <!-- <Tabbar></Tabbar> -->
            <div class="content">
                 <!-- <transition name="move" mode="out-in"> -->
                     <keep-alive :include="tagsList">

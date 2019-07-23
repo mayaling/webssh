@@ -36,9 +36,19 @@
                 }]
             }
         },
+        mounted() {
+            if(sessionStorage.getItem("selected")== null){
+                this.selected= "index";
+            }else{
+                this.selected = sessionStorage.getItem("selected");
+                
+            }
+                
+         },
         methods: {
             getVal: function(res) {
                 this.selected = res;
+                sessionStorage.setItem("selected", this.selected);
             }
         }
     }

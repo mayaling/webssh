@@ -16,6 +16,7 @@ body {
     height: auto !important;
     color: #333;
     font-size: 14px;
+    background: #F4F4F4;
     /* background: #f2f2f2; */
 }
 
@@ -376,51 +377,6 @@ ol {
 }
 
 
-/*Upload*/
-
-.pure-button {
-    width: 150px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    border-radius: 3px;
-}
-
-.g-core-image-corp-container .info-aside {
-    height: 45px;
-}
-
-.el-upload--text {
-    background-color: #fff;
-    border: 1px dashed #d9d9d9;
-    border-radius: 6px;
-    box-sizing: border-box;
-    width: 170px;
-    height: 170px;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.el-upload--text .el-icon-upload {
-    font-size: 67px;
-    color: #97a8be;
-    margin: 40px 0 16px;
-    line-height: 50px;
-}
-
-.el-upload--text {
-    color: #97a8be;
-    font-size: 14px;
-    text-align: center;
-}
-
-.el-upload--text em {
-    font-style: normal;
-}
-
 
 /*VueEditor*/
 
@@ -437,490 +393,718 @@ ol {
 }
 
 
-/*markdown*/
-
-.v-note-wrapper .v-note-panel {
-    min-height: 500px;
-}
-
-.item-title {
-    height: 42px;
-    background: #f6f6f6;
-    margin-bottom: 20px;
-}
-
-.item-title span {
-    font-size: 14px;
-    color: #666;
-    height: 22px;
-    line-height: 22px;
-    display: block;
-    margin: 10px 0 0 20px;
-    border-left: 5px solid #ff7070;
-    padding-left: 10px;
-    float: left;
-}
-
-.item-add-list .el-row {
-    margin-bottom: 10px;
-}
-
-.item-detail .el-row {
-    margin-bottom: 20px;
-}
-
-.item-add-list .el-select,
-.item-add-list .el-date-editor {
-    width: 100%;
-}
-
-font {
-    color: #ff3f3f;
-    font-size: 18px;
-    line-height: 24px;
-    vertical-align: middle;
-}
-
-.item-detail .el-col {
-    line-height: 24px;
-    min-height: 24px;
-    font-size: 16px;
-    color: #666;
-}
-
-.item-title button {
-    float: right;
-    display: inline-block;
-    white-space: nowrap;
-    cursor: pointer;
-    border: 1px solid #67c23a;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: 0;
-    margin: 5px 10px 0 0;
-    padding: 8px 15px;
-    font-size: 12px;
-    border-radius: 4px;
-    background-color: #67c23a;
-    color: #fff;
-}
-
-.el-col-12 .el-form-item__label {
-    width: 34%;
-}
-
-.el-col-12 .el-form-item__content {
-    margin-left: 34%;
-}
-
-.el-col-24 .el-form-item__label {
-    width: 17%;
-}
-
-.el-col-24 .el-form-item__content {
-    margin-left: 17%;
-}
-
-.el-form-item__content .el-form-item__content {
-    margin-left: 0;
-}
-
-.el-dialog .el-form-item__content .el-form-item {
-    margin-bottom: 0;
-}
-
-
-/*登录*/
-
-
-/*弹层输入*/
-
-.el-dialog__body {
-    padding: 20px;
-}
-
-.el-dialog .el-form-item {
-    margin-bottom: 15px;
-}
-
-.el-dialog .el-form-item .el-row {
-    margin-bottom: 0;
-}
-
-
-/*注册*/
-
-
-/*.reg{width:100%; background:#fff; margin-top:10px;}
-.reg li{padding:15px 0 15px 15px; border-bottom:1px solid #f1f1f1;}
-.reg li img{ height:16px; width:16px; float:left; margin-top:4px;}
-.reg li .login-input{ width:calc(100% - 26px); float:left; height:24px;}
-.reg li .login-input input{ border:none; height:24px; line-height:24px;}
-.reg li .login-input .el-input__suffix{top:-6px;}
-.reg li.code .codeBtn{ width:120px; background:#fff; border:none; border-radius:0; color:#FF7667; height:24px; line-height:24px; float:right; border-left:1px solid #f1f1f1; padding:0;}
-.reg li.code .codeBtn.gray{color:#999;}
-.reg li.code .codeBtn:hover,.reg li.code .codeBtn:active{-webkit-tap-highlight-color: rgba(255, 255, 255, 0);-webkit-user-select: none;-moz-user-focus: none;-moz-user-select: none}
-.reg li.code .login-input{ width:calc(100% - 150px);}
-.regBtn{ margin-top:200px; padding:0 15px;}
-.regBtn .el-button{ height:45px; width:100%; line-height:45px; border:none; border-radius:22px; background:#FF7667; font-size:17px; color:#fff; padding:0;}*/
-
-.reg {
-    background: #fff;
-}
-
-.reg .el-form-item {
-    margin: 0;
-    padding: 10px 15px 10px 0;
-    border-bottom: 1px solid #f1f1f1;
-    font-size: 15px;
-}
-
-.reg .el-form-item .el-form-item__label {
-    font-size: 15px;
-}
-
-.reg .el-form-item .el-form-item__label:before {
-    content: '*';
-    color: #f60;
-    margin-right: 5px;
-    vertical-align: middle;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.reg .el-form-item .el-input__inner {
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -webkit-user-select: none;
-    -moz-user-focus: none;
-    -moz-user-select: none
-}
-
-.regBtn {
-    margin-top: 80px;
-    padding: 0 15px;
-}
-
-.regBtn .el-button {
-    height: 45px;
-    width: 100%;
-    line-height: 45px;
-    border: none;
-    border-radius: 22px;
-    background: #FF7667;
-    font-size: 17px;
-    color: #fff;
-    padding: 0;
-}
 
 
 /*首页*/
 
-.header {
+.index-head-box{
     width: 100%;
-    height: 46px;
-    background: #fff;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 30;
-    border-bottom: 1px solid #e1e1e1;
-}
-
-.header h2 {
-    width: 100%;
-    text-align: center;
-    line-height: 45px;
-    font-size: 18px;
-}
-
-.banner {
-    width: 100%;
-    height: 15.88rem;
-    background: url(../img/Group\ 3@3x.png) no-repeat;
-    background-size: 100% 100%;
-}
-
-.banner img {
-    width: 100%;
-}
-
-.boutique {
-    margin-top: 0.88rem;
-    width: calc(100% - 1.26rem);
-    height: 14.69rem;
-    margin-left: 0.63rem;
     background: #FFFFFF;
-    border-radius: 14px;
-    position: relative;
-    z-index: 9;
+    height: 2.75rem;
 }
-
-.banber-log {
-    width: 100px;
-    height: 29px;
-    background: url(../img/toplogo.png) no-repeat;
+.index-head {
+    width: calc(100% - 1.88rem);
+    height: 2.75rem;
+    /* background: #17AEC1; */
+    position: relative;
     background-size: 100% 100%;
-    display: inline-block;
-    margin-top: 34px;
-    margin-left: 20px;
-    z-index: 88;
+    padding-top:0.63rem;
+    margin-left:0.94rem;
 }
 
 
-/* .boutique {
-    width: calc(100% - 20px);
-    height: 235px;
-    margin-left: 10px;
-    margin-top: 10px;
-    background: #FFFFFF;
-    border-radius: 14px;
-    position: relative;
-    z-index: 9;
-    margin-top: -200px;
-} */
-
-.boutique-logo {
+.index-head h5 {
+	font-family: PingFangSC-Semibold;
+	font-size: 18px;
+	color: #000000;
+    letter-spacing: 0;
+    float: left;
+}
+.indexheadimg{
     position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    top: 20px;
-    left: 20px;
+    top:0.58rem;;
+    right: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
-.boutique-logo img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.indexheadimg img{
+    width: 100%;
 }
 
-.boutique .boutiquetitle {
-    width:8rem;
+.index-banner{
+    height: 3.13rem;
+    width:100%;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #E5E5E5;
+    /* background: yellow; */
+   
+}
+.index-banner .selected{
     font-family: PingFangSC-Semibold;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
-    position: absolute;
-    left: 56px;
-    top: 23px;
+    letter-spacing: 0;
+    font-weight: 800;
 }
-
-.jingpinlogo {
-    width: 26px;
-    height: 46px;
-    position: absolute;
-    background: url(../img/jingping@3x.png) no-repeat;
-    background-size: 100% 100%;
-    top: 0;
-    right: 20px;
+.index-banner .tabchange{
+    line-height: 3.13rem;
+    margin-left: 0.94rem;
 }
-
-.jingpininer {
-    width: 15px;
-    height: 26px;
-    font-family: PingFangSC-Regular;
-    font-size: 14px;
-    color: #FFFFFF;
-    line-height: 14px;
-    padding-top: 7px;
-    padding-left: 6px;
-}
-
-.tip {
-    position: absolute;
-    font-family: PingFangSC-Regular;
-    font-size: 12px;
-    color: #9B9B9B;
-    text-align: right;
-    left: 20px;
-    top: 60px;
-}
-
-.price {
-    font-family: DINAlternate-Bold;
-    font-size: 32px;
-    color: #00B0B5;
-    text-align: right;
-    position: absolute;
-    top: 82px;
-    left: 20px;
-}
-
-.checklimit {
-    width: 110px;
-    height: 38px;
-    position: absolute;
-    right: 20px;
-    top: 80px;
-    background: #00BCC1;
-    border-radius: 22.5px;
-}
-.checklimit span {
-    display: block;
-    width: 84px;
-    font-family: PingFangSC-Medium;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 9px;
-    padding-left: 13px;
-}
-/* .checklimit a {
-    display: block;
-    width: 84px;
-    font-family: PingFangSC-Medium;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 9px;
-    padding-left: 13px;
-} */
-
-.tips {
-    width: calc(100% - 1.26rem);
-    height: 4.38rem;
-    background: #FAFBFF;
-    border-radius: 2px;
-    position: absolute;
-    top: 9.06rem;
-    left: 0.63rem;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; */
-    /* padding-left: 0.63rem; */
-}
-
-.tipstitle {
-    font-family: PingFangSC-Medium;
-    font-size: 12px;
-    color: #9B9B9B;
-    margin-top: 0.2rem;
-}
-
-.tips .tips1 {
-    width: 100%;
-    height: 1.06rem;
-    margin: 0.8rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tips .tips2 {
-    width: 100%;
-    height: 1.06rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tipsimage img {
-    width: 14px;
-    height: 14px;
-}
-
-
-/* .tips ul {
-    display: flex;
-    justify-content: space-between;
+.index-banner .tabchange li{
     float: left;
-} */
-
-
-/* .tips ul li {
+    /* opacity: 0.5; */
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.index-banner .tabchange li a{
+    opacity: 0.5;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.index-banner .tabchange li:nth-child(2){
+    padding-left:1.88rem;
+}
+.index-banner .shaixuan{
+    margin-top: 0.81rem;
+    float: right;
+    margin-right: 0.94rem;
+}
+.index-banner .shaixuan li{
+    /* opacity: 0.6; */
+    text-align: center;
     float: left;
-    height: 1.06rem;
-}
-
-.tipafter {
-    margin-left: 4.06rem;
-}
-
-.tips ul li .tipsimage {
-    width: 0.88rem;
-    height: 0.88rem;
-}
-
-.tipsimage img {
-    width: 14px;
-    height: 14px;
-}
-
-.tips ul li .tipstitle {
-    font-family: PingFangSC-Medium;
+    width: 2.88rem;
+    height: 1.56rem;
+    line-height: 1.56rem;
+    font-family: PingFangSC-Regular;
     font-size: 12px;
-    color: #9B9B9B;
-} */
-
-
-/* 小额贷图片 */
-
-.xianjindai {
-    margin-top: 3.8rem;
-    width: calc(100% - 1.26rem);
-    /* width: 22.19rem; */
-    /* height: 3.63rem; */
+    color: #000000;
+    letter-spacing: 0;
+    background: #F4F4F4;
+    /* padding: 0.3rem; */
+}
+/* .index-banner .shaixuan li:nth-child(2){
     margin-left: 0.63rem;
+} */
+.index-banner .shaixuan li span{
+    opacity: 0.7;
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: right;
+}
+.index-banner .shaixuan img{
+    margin-bottom: 0.13rem;
+}
+.positiontype{
+    margin-left: 0.63rem;
+
 }
 
-.xianjindai img {
-    width: 100%;
+.job {
+    width:100%;
+
+   background: #FFFFFF;
+    /* margin-top: 1.25rem; */
 }
-
-
-/* 最新口子 */
-
-.zuixinkouzi {
-    width: calc(100% - 2.5rem);
-    margin-left: 1.25rem;
-    margin-top: 1.38rem;
-}
-
-.zuixinkouzi h5 {
+.job h5 {
     font-family: PingFangSC-Semibold;
     font-size: 16px;
     color: #000000;
 }
-.kouzi {
-    margin-top: 0.31rem;
+
+.joblist {
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    /* width: 100%; */
+    height: 9.5rem;
+    /* margin-top: 0.31rem; */
+    position: relative;
+    /* border-bottom: 1px solid #ECECEC; */
+}
+
+.joblist .joblisttop {
+    height: 3.51rem;
+}
+
+.joblist .joblisticon {
+    position: absolute;
+    top:0.69rem;
+    width: 2.38rem;
+    height: 2.38rem;
+}
+
+.joblist .joblisticon img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.joblist .joblistname {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #000000;
+    width: 12rem;
+    position: absolute;
+    /* left: 2.785rem; */
+    /* top: 1.06rem; */
+    top: 0.75rem;
+}
+.joblist .jobname{
+    /* font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #000000;
+    text-align: center; */
+    opacity: 0.8;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    font-weight:700;
+}
+
+.joblist .joblist-logo{
+    width: 1.63rem;
+    height: 1.63rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0.94rem;
+}
+.joblist .joblist-logo img{
+    width: 100%;
+}
+.joblist .joblist-time{
+    width:7rem;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: right;
+    position: absolute;
+    bottom:1.19rem;
+    right: 0;
+}
+
+.joblist .joblist-desc{
+    position: absolute;
+    bottom:1.25rem;
+    left:2.25rem;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.joblist .jobtitle {
+    width: 7rem;
+    position: absolute;
+    top:3.13rem;
+    /* left: 2.75rem; */
+    opacity: 0.7;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    /* font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #9B9B9B; */
+}
+.slogan{
+    position: absolute;
+    top:4.89rem;
+}
+.slogan .nametip {
+    /* background: #F4F4F4; */
+    border-radius: 2px;
+   
+}
+.slogan .nametip span{
+    /* opacity: 0.6; */
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    background: #F4F4F4;
+    padding:0.3rem;
+}
+.slogan .nametip span:nth-child(2){
+    margin:0 0.94rem 0 0.94rem;
+}
+.jobprice {
+    position: absolute;
+    right: 0;
+    top: 0.94rem;
+    /* width: 4.38rem; */
+    height: 1.88rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #3486F7;
+    letter-spacing: 0;
+}
+
+.joblistbottom {
+    height: 4rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.joblistbottom-price {
+    width: 7.13rem;
+    text-align: left;
+}
+
+.joblistbottom-date {
+    width: 7.62rem;
+    text-align: center;
+}
+
+.joblistbottom-radio {
+    width: 6.06rem;
+    text-align: right;
+}
+
+.joblistbottom p {
+    opacity: 0.8;
+    font-family: DINAlternate-Bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.joblistbottom span {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.joblistbottom-price {
+    border-right: 1px solid #D5D5D5;
+}
+
+.joblistbottom-date {
+    border-right: 1px solid #D5D5D5;
+}
+
+
+/* 工作详情 */
+.jobdetail-head {
+    width: 100%;
+    height: 2.75rem;
+    background: #FFFFFF;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.jobdetail-headimg {
+    width: 0.69rem;
+    height: 0.66rem;
+    position: absolute;
+    left: 0.94rem;
+    top: 0.75rem;
+}
+
+.jobdetail-headimg img {
+    width: 100%;
+}
+
+.jobdetail-head h5 {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.jobdetail-mainhead{
+    width: 100%;
+    height: 8.56rem;
+    background: #FFFFFF;
+    position: relative;
+}
+.jobdetail-mainhead .mianhead-box{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+}
+.jobdetail-title{
+    width: calc(100% - 1.88rem);
+    height:2.63rem;
+    position: absolute;
+    top:1.56rem;
+}
+.jobdetail-title .price{
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #3486F7;
+    letter-spacing: 0;
+    float: right;
+    line-height: 2.63rem;
+
+}
+.jobdetail-title .title{
+    opacity: 0.8;
+    font-family: PingFangSC-Semibold;
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 2.63rem;
+    font-weight: 600;
+
+}
+.jobdetail-titletips{
+    position: absolute;
+    bottom: 1.03rem;
+}
+.jobdetail-titletips ul li{
+    float: left;
+}
+
+.jobdetail-titletips ul li:nth-child(2){
+    padding:0 1.13rem 0 1.13rem;
+}
+
+.jobdetail-titletips ul li img{
+    height: 0.9rem;
+    width: 0.9rem;
+}
+.jobdetail-descbox{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top:0.5rem;
+}
+.jobdetai-desc{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    padding:1rem 0 1rem 0;
+    /* height: 11.14rem; */
+    /* background: #00A854; */
+}
+
+.jobdetai-desc p{
+    padding: 0 0 0.94rem 0;
+    opacity: 0.8;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.jobdetai-desc span{
+    opacity: 0.7;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.jobdetai-desc .lookall{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #4592FF;
+    letter-spacing: 0;
+}
+.jobdetial-abilitybox{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top:0.5rem;
+}
+.jobdetial-ability{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    padding:0.94rem 0 0.94rem 0;
+    /* background: #00A854; */
+
+}
+
+
+.jobdetial-ability p{
+    opacity: 0.8;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom: 0.88rem;
+    font-weight: 700;
+}
+
+.jobdetial-ability  .abilitytip {
+    /* background: #F4F4F4; */
+    border-radius: 2px;
+   
+}
+.jobdetial-ability  .abilitytip span{
+    /* opacity: 0.6; */
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    background: #F4F4F4;
+    padding:0.3rem;
+}
+.jobdetial-ability  .abilitytip span:nth-child(2){
+    margin:0 0.94rem 0 0.94rem;
+}
+.jobdetial-addressbox{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top:0.5rem;
+}
+.jobdetial-address{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    padding:1rem 0 1rem 0;
+}
+.jobdetial-address img{
+    height: 0.98rem;
+    widows: 0.98rem;
+}
+.jobdetial-address p{
+    opacity: 0.8;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.jobdetial-address span{
+    float:right;
+}
+
+
+
+/* 工作发布 */
+.publish-head {
+    width: 100%;
+    height: 2.75rem;
+    background: #FFFFFF;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.publish-headimg {
+    width: 0.69rem;
+    height: 0.66rem;
+    position: absolute;
+    left: 0.94rem;
+    top: 0.75rem;
+}
+
+.publish-headimg img {
+    width: 100%;
+}
+
+.publish-head h5 {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.publish-titlebox{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top:0.5rem;
+}
+.publish-title{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    /* padding:0.63rem 0 0.63rem 0; */
+}
+.el-collapse-item__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    /* height: 48px; */
+    /* line-height: 48px; */
+    color: #303133;
+    cursor: pointer;
+    /* border-bottom: 1px solid #ebeef5; */
+    border:none!important;
+    font-size: 13px;
+    font-weight: 500;
+    -webkit-transition: border-bottom-color .3s;
+    transition: border-bottom-color .3s;
+    outline: 0;
+}
+.el-collapse-item__wrap {
+    will-change: height;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border:none!important;
+    /* border-bottom: 1px solid #ebeef5; */
+}
+.el-collapse-item__content{
+    padding-bottom:0.1rem;
+}
+
+.el-form-item {
+    margin-bottom: 0!important;
+}
+
+.el-collapse-item__header{
+    opacity: 0.7;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.el-input--medium .el-input__inner {
+    height: 36px;
+    line-height: 36px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding:0;
+}
+.publish-positiondescbox{
+    width: 100%;
+    /* background: #FFFFFF; */
+    margin-top:0.63rem;
+}
+.publish-positiondesc{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+}
+.publish-positiondesc span{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #ADADAD;
+    letter-spacing: 0;
+
+}
+.publish-positiondesc .rule{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #3486F7;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.publish-loginbtnbox{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top:0.63rem;
+    padding:1.25rem 0 1.25rem 0;
+}
+.publish-loginbtn{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    background: #3486F7;
+    border-radius: 25px;
+    font-family: PingFangSC-Regular;
+    padding:0.38rem 0 0.38rem 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+.publishinput-produce {
+    /* width: 20.94rem; */
+    height: 10.56rem;
+    background: #F2F3F7;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+
+/* 筛选页面 */
+.screen-head {
+    width: 100%;
+    height: 2.75rem;
+    background: #FFFFFF;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.screen-headimg {
+    width: 0.69rem;
+    height: 0.66rem;
+    position: absolute;
+    left: 0.94rem;
+    top: 0.75rem;
+}
+
+.screen-headimg img {
+    width: 100%;
+}
+
+.screen-head h5 {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.screen-choosetip{
+    width: 100%;
+    background: #FFFFFF;
+}
+.screen-chossetipitems{
+    width: calc(100% - 1.88rem);
+    margin-left: 0.94rem;
+    padding-top:1.25rem;
+}
+.choosetiptitle{
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.choosetiptype{
+    /* width: calc(100% - 2.5rem); */
+    /* width:6.56rem;
+    height: 2rem;
+    margin-left:1.25rem; */
+    /* margin-top: 0.63rem; */
+    display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.kouzi div {
-    width: 10.13rem;
-    height: 7.5rem;
-    background: #FBFBFE;
-}
-
-/* .kouzi1 {
-    margin-top: 0.31rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.kouzi1 div {
-    width: 10.13rem;
-    height: 7.5rem;
-    background: #FBFBFE;
-}
-
-.kouzi2 {
+.choosetiptype span{
     margin-top: 0.63rem;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    width: 6.56rem;
+    height: 2rem;
+    line-height: 2rem;
+    background: #F4F4F4;
+    border-radius: 5px;
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+.active{
+    background: #FFFFFF;
+    border: 1px solid #3486F7;
+    border-radius: 5px;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #3486F7;
+    letter-spacing: 0;
+    text-align: center;
 }
 
-.kouzi2 div {
-    width: 10.13rem;
-    height: 7.5rem;
-    background: #FBFBFE;
-} */
+
+
+
+
+
 
 .kouzi-item{
     margin-top: 0.63rem;
@@ -1021,7 +1205,7 @@ font {
     color: #000000;
     text-align: center;
 }
-.nametip {
+/* .nametip {
     width: 3.88rem;
     display: inline-block;
     font-family: PingFangSC-Regular;
@@ -1031,7 +1215,7 @@ font {
     background: #FF4451;
     border-radius: 1px;
     margin-left: 0.56rem;
-}
+} */
 
 .hotlisttip {
     width: 8.13rem;
@@ -1562,7 +1746,7 @@ font {
     outline: none;
     border-radius: 25px;
     background: #F2F3F7;
-    font-size:20px;
+    font-size:14px;
 }
 .mscode{
     width: 10.75rem;
@@ -1573,7 +1757,7 @@ font {
     outline: none;
     border-radius: 25px;
     background: #F2F3F7;
-    font-size:20px;
+    font-size:14px;
 }
 .lineborder{
     border:1px solid #D5D5D5;
